@@ -11,5 +11,5 @@ result = []
 groceries.each {|k,v|
 v.each{|el| result << el}}
 
-result 
+result
 end
