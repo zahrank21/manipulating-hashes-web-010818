@@ -7,7 +7,9 @@ def second_challenge
   }
 
   #code your solution here!
+result = []
+groceries.each {|k,v|
+v.each{|el| result << el}}
 
-  
-
+result
 end
