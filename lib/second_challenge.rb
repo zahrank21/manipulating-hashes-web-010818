@@ -10,6 +10,6 @@ def second_challenge
 result = []
 groceries.each {|k,v|
 v.each{|el| result << el}}
-  
+
 
 end
